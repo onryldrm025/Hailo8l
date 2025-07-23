@@ -24,7 +24,7 @@ cd model
 ```
 
 ```bash
-yolo detect train data=config.yaml model=yolov8n.pt name=retrain_yolov8n project=./runs/detect epochs=1000 batch=16
+yolo detect train data=data.yaml model=yolov8n.pt name=retrain_yolov8n project=./runs/detect epochs=1000 batch=16
 ```
 
 ### Convert to ONNX
